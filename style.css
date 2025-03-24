@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    border: 2px solid black;
+    background: rgba(255, 255, 255, 0.8);
+    filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.5));
+    transition: transform 0.2s;
+}
+
+canvas:hover {
+    transform: scale(1.05);
+}
